@@ -1,0 +1,131 @@
+.header {
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    background-color: #12041F;
+    background-clip: border-box;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    align-items: center;
+}
+
+.header h1 {
+    margin-left: 20px;
+    font-family: 'Dosis';
+    color: #380BF0;
+}
+
+body {
+    margin: 0;
+    background-color: #D8D8D8;
+    height: 100%;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+.header li {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+    color: #41AEF0;
+}
+
+.calendrier {
+    margin: 10px;
+    min-height: 100%;
+}
+
+.mois {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.mois button {
+    cursor: pointer;
+    background-color: #7769AD;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 15px;
+    box-shadow: 3px 3px #2A0447;
+    margin-left: 15px;
+    font-family: 'Dosis';
+}
+
+.mois button:hover {
+    background-color: #612292;
+}
+
+.mois button:active {
+    background-color: #1F0633;
+    color: white;
+}
+
+.mois input {
+    font-family: 'Dosis';
+    border-radius: 15px;
+    padding-left: 8px;
+    width: auto;
+    border-width: 1px;
+    box-shadow: 3px 3px #2A0447;
+}
+
+.header a {
+    text-decoration: none;
+    color: #41AEF0;
+}
+
+.header a:hover {
+    color: #275F81;
+}
+
+footer {
+    background-color: #12041F;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: sticky;
+    text-align: center;
+    padding: 4px;
+}
+
+footer p {
+    color: #380BF0;
+    margin-bottom: 0;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: #ABB2B9;
+}
+
+.etatOuvert {
+    background-color: green;
+}
+
+.etatFerme {
+    background-color: #8C190E;
+}

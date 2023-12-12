@@ -1,0 +1,93 @@
+.header {
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    background-color:  #12041F;
+    background-clip: border-box;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    align-items: center;
+}
+body {
+    margin: 0;
+    background-color: #D8D8D8;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+.header li {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+    color: #41AEF0; 
+}
+
+.header a {
+    text-decoration: none;
+    color: #41AEF0; 
+}
+
+.header a:hover {
+    color: #275F81;
+}
+
+footer {
+    background-color:  #12041F;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    color: #380BF0;
+}
+.form {
+    border-width: 2px;
+    font-family: 'Dosis';
+}
+.form h1 {
+    text-align: center;
+}
+.form form {
+    position: absolute;
+    left: 44%;
+    right: auto;
+}
+.form input {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px;
+    box-shadow: 3px 3px black;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form button {
+    background-color: #7769AD;
+    border : 1px solid black;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    box-shadow: 3px 3px #2A0447;
+}
+
+.form button:hover {
+    background-color: #612292;
+}
+
+.form button:active {
+    background-color: #1F0633;
+    color: white;
+}
