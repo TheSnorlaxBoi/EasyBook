@@ -1,17 +1,18 @@
+body {
+    margin: 0;
+    background: linear-gradient(0.25turn, #C88CF7, #D8D8D8 10%, #D8D8D8 90%, #C88CF7);
+}
+
 .header {
     display: flex;
     justify-content: left;
     margin: 0;
     padding: 0;
-    background-color:  #12041F;
+    background-color: #0B086A;
     background-clip: border-box;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     align-items: center;
-}
-body {
-    margin: 0;
-    background-color: #D8D8D8;
 }
 
 .header ul {
@@ -23,43 +24,37 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     font-size: large;
-    color: #41AEF0; 
+    color: #41AEF0;
 }
 
 .header a {
     text-decoration: none;
-    color: #41AEF0; 
+    color: #41AEF0;
 }
 
 .header a:hover {
     color: #275F81;
 }
 
-footer {
-    background-color:  #12041F;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+.header a:active {
+    color: #1C4158;
 }
 
-footer p {
-    color: #380BF0;
-}
 .form {
     border-width: 2px;
     font-family: 'Dosis';
 }
+
 .form h1 {
     text-align: center;
 }
+
 .form form {
     position: absolute;
     left: 44%;
     right: auto;
 }
+
 .form input {
     margin-bottom: 15px;
     border-radius: 5px;
@@ -67,14 +62,16 @@ footer p {
     padding: 5px;
     box-shadow: 3px 3px black;
 }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
+
 .form button {
     background-color: #7769AD;
-    border : 1px solid black;
+    border: 1px solid black;
     padding-left: 8px;
     padding-right: 8px;
     padding-top: 5px;
@@ -89,5 +86,19 @@ input::-webkit-inner-spin-button {
 
 .form button:active {
     background-color: #1F0633;
+    color: white;
+}
+
+footer {
+    background-color: #0B086A;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
     color: white;
 }

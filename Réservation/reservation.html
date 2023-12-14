@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>EasyBook : Réservations en Lignes</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style_reserv.css">
-    <script src="../app.js"></script>
-  </head>
-  <body>
-    <div class="header">
+
+<head>
+  <title>EasyBook : Réservations en Lignes</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style_reserv.css">
+  <script src="../app.js"></script>
+</head>
+
+<body>
+  <div class="header">
     <img src="../images/logo.png" width="100px" height="100px">
     <ul>
       <li><a href="../page_acceuil.html">Disponibilités</a></li>
       <li><a href="#">Créer Réservation</a></li>
       <li><a href="Liste_Réservation/liste_reserv.html">Liste Réservations</a></li>
     </ul>
-    </div>
-    <div class="form">
-        <h1>Formulaire de Réservation</h1>
-        <form>
-            <label for="name">Nom</label><br>
-            <input type="text" id="name" name="name" required>
-            <br>
-            <label for="date">Date</label><br>
-            <input type="date" id="date" name="date" required>
-            <br>
-            <label for="hour">Heure</label><br>
-            <input type="time" id="hour" name="heure" required>
-            <br>
-            <button onclick="ajouterDonnee()" value="form_confirm">Valider</button>
-        </form>
-    </div>
+  </div>
+  <div class="form">
+    <h1>Formulaire de Réservation</h1>
+    <form>
+      <label for="name">Nom</label><br>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="date">Date</label><br>
+      <input type="date" id="date" name="date" required>
+      <br>
+      <label for="hour">Heure</label><br>
+      <input type="time" id="hour" name="heure" required>
+      <br>
+      <button onclick="ajouterDonnee()" value="form_confirm">Valider</button>
+    </form>
+  </div>
+  <footer>
+    <p>Site réalisé par LEHMANN Nicolas</p>
     <footer>
-      <p>Site réalisé par LEHMANN Nicolas</p>
-    <footer>
-  </body>
+</body>
+
 </html>

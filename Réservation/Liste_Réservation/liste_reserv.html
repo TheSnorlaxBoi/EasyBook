@@ -1,51 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>EasyBook : Réservations en Lignes</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style_liste.css">
-    <script src="../../app.js"></script>
-  </head>
-  <body>
-    <div class="header">
+
+<head>
+  <title>EasyBook : Réservations en Lignes</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style_liste.css">
+  <script src="../../app.js"></script>
+</head>
+
+<body>
+  <div class="header">
     <img src="../../images/logo.png" width="100px" height="100px">
     <ul>
       <li><a href="../../page_acceuil.html">Disponibilités</a></li>
       <li><a href="../reservation.html">Créer Réservation</a></li>
       <li><a href="#">Liste Réservations</a></li>
     </ul>
+  </div>
+  <div class="liste">
+    <h1>Liste des réservations effectués</h1>
+    <div class="data-search">
+      <select name="data" id="data-search" required>
+        <option value="id">ID Réservation</option>
+        <option value="name">Nom</option>
+        <option value="date">Date</option>
+        <option value="time">Horaire</option>
+      </select>
+      <input type="search" id="reserv-search" />
+      <button onclick="filtrerReservations()">Search</button>
     </div>
-    <div class="liste">
-      <h1>Liste des réservations effectués</h1>
-      <div class="data-search">
-        <select name="data" id="data-search" required>
-          <option value="id">N°Réservation</option>
-          <option value="name">Nom</option>
-          <option value="date">Date</option>
-          <option value="time">Horaire</option>
-        </select>
-        <input type="search" id="reserv-search" />
-        <button onclick="filtrerReservations()">Search</button>
-      </div>
-      <table id="reservation-table">
-        <tr>
-          <th>N° Réservation</th>
-          <th>Nom</th>
-          <th>Date</th>
-          <th>Horaire</th>
-          <th>Options</th>
-        </tr>
-        <tr>
-          <td>4566541</td>
-          <td>Jean</td>
-          <td>02/20/2023</td>
-          <td>16:30</td>
-          <td><button class="annulation-link">Annulation</button></td>
-        </tr>
-      </table>
-    </div>
+    <table id="reservation-table">
+      <tr>
+        <th>ID Réservation</th>
+        <th>Nom</th>
+        <th>Date</th>
+        <th>Horaire</th>
+        <th>Options</th>
+      </tr>
+    </table>
+  </div>
+  <footer>
+    <p>Site réalisé par LEHMANN Nicolas</p>
     <footer>
-      <p>Site réalisé par LEHMANN Nicolas</p>
-    <footer>
-  </body>
+</body>
+
 </html>

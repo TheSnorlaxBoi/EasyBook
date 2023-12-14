@@ -1,24 +1,22 @@
+body {
+    margin: 0;
+    background: linear-gradient(0.25turn, #C88CF7, #D8D8D8 10%, #D8D8D8 90%, #C88CF7);
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     justify-content: left;
     margin: 0;
     padding: 0;
-    background-color:  #12041F;
+    background-color: #0B086A;
     background-clip: border-box;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     align-items: center;
-}
-
-.header h1 {
-    margin-left: 20px;
-    font-family: 'Dosis';
-    color: #380BF0;
-}
-
-body {
-    margin: 0;
-    background-color: #D8D8D8;
 }
 
 .header ul {
@@ -30,68 +28,76 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     font-size: large;
-    color: #41AEF0; 
+    color: #41AEF0;
 }
 
 .header a {
     text-decoration: none;
-    color: #41AEF0; 
+    color: #41AEF0;
 }
 
 .header a:hover {
     color: #275F81;
 }
 
-footer {
-    background-color:  #12041F;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+.header a:active {
+    color: #1C4158;
 }
 
-footer p {
-    color: #380BF0;
-}
-
-th,td {
-    border:1px solid black;
+th,
+td {
+    border: 1px solid black;
     padding: 10px;
     text-align: center;
 }
+
 table {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
+
 th {
-    background-color: #ABB2B9 ;
+    background-color: #ABB2B9;
 }
+
 .liste h1 {
     text-align: center;
 }
-.data-search {
-   display: flex;
-   justify-content: center;
+
+.liste {
+    flex: 1;
+    margin-bottom: 20px;
 }
-.data-search input, .data-search button, .data-search select {
+
+.data-search {
+    display: flex;
+    justify-content: center;
+}
+
+.data-search input,
+.data-search button,
+.data-search select {
     font-family: 'Dosis';
 }
-.data-search input, .data-search button {
+
+.data-search input,
+.data-search button {
     margin-left: 10px;
 }
+
 .data-search input {
     border-radius: 5px;
     border-width: 1px;
     padding: 5px;
     box-shadow: 3px 3px black;
 }
+
 .data-search select {
     border-radius: 5px;
     box-shadow: 3px 3px black;
 }
+
 .data-search button {
     background-color: #7769AD;
     border: 1px solid black;
@@ -102,6 +108,7 @@ th {
     border-radius: 15px;
     box-shadow: 3px 3px #2A0447;
 }
+
 .data-search button:hover {
     background-color: #612292;
 }
@@ -110,6 +117,7 @@ th {
     background-color: #1F0633;
     color: white;
 }
+
 #reservation-table button {
     background-color: #8E1408;
     border: 1px solid black;
@@ -120,11 +128,24 @@ th {
     border-radius: 15px;
     box-shadow: 3px 3px #2A0447;
 }
+
 #reservation-table button:hover {
     background-color: #BE1C0C;
 }
 
 #reservation-table button:active {
     background-color: #370804;
+    color: white;
+}
+
+footer {
+    background-color: #0B086A;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: sticky;
+    text-align: center;
+}
+
+footer p {
     color: white;
 }

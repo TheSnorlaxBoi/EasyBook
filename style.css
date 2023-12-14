@@ -1,25 +1,19 @@
+body {
+    margin: 0;
+    background: linear-gradient(0.25turn, #C88CF7, #D8D8D8 10%, #D8D8D8 90%, #C88CF7);
+    height: 100%;
+}
+
 .header {
     display: flex;
     justify-content: left;
     margin: 0;
     padding: 0;
-    background-color: #12041F;
+    background-color: #0B086A;
     background-clip: border-box;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     align-items: center;
-}
-
-.header h1 {
-    margin-left: 20px;
-    font-family: 'Dosis';
-    color: #380BF0;
-}
-
-body {
-    margin: 0;
-    background-color: #D8D8D8;
-    height: 100%;
 }
 
 .header ul {
@@ -32,6 +26,19 @@ body {
     margin-right: 20px;
     font-size: large;
     color: #41AEF0;
+}
+
+.header a {
+    text-decoration: none;
+    color: #41AEF0;
+}
+
+.header a:hover {
+    color: #275F81;
+}
+
+.header a:active {
+    color: #1C4158;
 }
 
 .calendrier {
@@ -77,17 +84,8 @@ body {
     box-shadow: 3px 3px #2A0447;
 }
 
-.header a {
-    text-decoration: none;
-    color: #41AEF0;
-}
-
-.header a:hover {
-    color: #275F81;
-}
-
 footer {
-    background-color: #12041F;
+    background-color: #0B086A;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     position: sticky;
@@ -96,12 +94,14 @@ footer {
 }
 
 footer p {
-    color: #380BF0;
+    color: #ffffff;
     margin-bottom: 0;
 }
 
 h1 {
     margin: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
